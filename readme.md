@@ -37,14 +37,14 @@ Paramters: 1) message - "helloworld", username - "Alexander"
 
 With this url our server will need to call the following method:
 
-public class ChatController
-{
-    public string PostMessage(string message, string username)
+    public class ChatController
     {
-        // here message variable = "helloworld", username = "Alexander"
-        // now we can write the logic here to user our parameters
+        public string PostMessage(string message, string username)
+        {
+            // here message variable = "helloworld", username = "Alexander"
+            // now we can write the logic here to user our parameters
+        }
     }
-}
 
 # Advanced tasks (desirable but not obligatory):
 
